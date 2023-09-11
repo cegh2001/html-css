@@ -3,70 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Hoja de Vida</title>
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <header>
-        <h1>Información General</h1>
-    </header>
-    <main>
-        <section>
+    <div class="cv-container">
+        <div class="left-section">
+            <img src="foto-mia.jpeg" alt="Tu Foto">
+            <div class="contact-section">
+                <h2>Contacto</h2>
+                <ul>
+                    <li><strong>Email:</strong> cargonzalez0601@gmail.com</li>
+                    <li><strong>Teléfono:</strong> +584129897838</li>
+                    <li><strong>Ubicación:</strong> Caraballeda, La Guaira, Venezuela</li>
+                </ul>
+            </div>
+            <div class="skills-section">
+                <h2>Habilidades Técnicas</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Prompt Engineering</li>
+                    <li>CodeIgniter4</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </div>
+            <div class="right-section">
+        <div class="header-section">
+            <h1>Carlos Gonzalez</h1>
+            <h2>Desarrollador Web</h2>
+        </div>
+        <div class="about-section">
+            <h2>Acerca de mi</h2>
+            <p>Soy un desarrollador orientado a soluciones con un ojo para el detalle, especializado en Backend pero con conocimientos en Frontend. Estoy en búsqueda de una posición en un equipo donde pueda aplicar mis habilidades y aprender nuevas.</p>
+        </div>
+        <div class="experience-section">
             <h2>Experiencia</h2>
             <ul>
-                <li>Universidad Maritima del Caribe - Desarrollador Aprendiz</li>
+                <li>
+                    <strong>Universidad Marítima del Caribe - Desarrollador Aprendiz</strong>
+                    <ul>
+                        <li>Desarrollé en equipo una plataforma de marketplace para mi universidad similar al de Facebook usando CodeIgniter 4 framework, PHP, JavaScript, HTML, CSS y MySQL.</li>
+                        <li><strong>Posición:</strong> Desarrollador Web</li>
+                        <li><strong>Periodo:</strong> Enero 2022 - June 2023 (1 año y 5 meses)</li>
+                        <li>Logré el exitoso desarrollo e implementación de un mercado universitario utilizando PHP y JavaScript, con un fuerte enfoque en el desarrollo del backend.</li>
+                        <li>Coordiné la integración de diversas funcionalidades, lo que resultó en una plataforma de mercado fácil de usar y con un rendimiento óptimo.</li>
+                        <li>Impulsé esfuerzos efectivos de depuración y solución de problemas, contribuyendo al mantenimiento de altos estándares de rendimiento.</li>
+                        <li>Colaboré estrechamente con un equipo para entregar una plataforma de mercado sólida y de vanguardia que cumplió y superó las expectativas del cliente.</li>
+                        <li>Demostre habilidades excepcionales de liderazgo y supervisión durante todo el proceso de desarrollo, desde la codificación inicial hasta el lanzamiento del producto final.</li>
+                        <li>Otros proyectos exitosamente completados, incluyendo un proyecto de chatbot con Python utilizando Prompt Engineering y la API de OpenAI (2023) y un juego de Tetris basado en Java con conexión de sockets desarrollado en una semana (2023).</li>
+                    </ul>
+                </li>
             </ul>
-        </section>
-        <section>
-            <h3>Habilidades Técnicas</h3>
-            <table>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>React</td>
-                    <td>PHP</td>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>CSS</td>
-                    <td>Python</td>
-                    <td>C++</td>
-                </tr>
-            </table>
-        </section>
-        <section>
-            <h4>Intereses</h4>
-            <table>
-                <tr>
-                    <td>Aplicaciones Móviles</td>
-                    <td>Inteligencia Artificial</td>
-                </tr>
-                <tr>
-                    <td>Blockchain</td>
-                    <td>Desarrollo Web</td>
-                </tr>
-            </table>
-        </section>
-        <section>
-            <h5>Contactar</h5>
-            <form>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                <br>
-                <button type="submit">Enviar Mensaje</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <ul>
-            <li><strong>Nombre y Apellido:</strong> Carlos Gonzalez</li>
-            <li><strong>Email:</strong> cargonzalez0601@gmail.com</li>
-            <li><strong>Teléfono:</strong> +584129897838</li>
-            <li><strong>Ubicación Actual:</strong> Caraballeda, La Guaira, Venezuela</li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/cegh2001" target="_blank">GitHub</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/carlos-eduardo-gonzalez-henriquez-700490244" target="_blank">LinkedIn</a></li>
-        </ul>
-    </footer>
+        </div>
+            <div class="education-section">
+                <h2>Educación</h2>
+                <ul>
+                <li>
+                    <strong>Nombre de la Universidad</strong>
+                    <ul>
+                        <li>Universidad Nacional Experimental Marítima del Caribe</li>
+                        <li><strong>Título Académico:</strong> Ingeniería Informática</li>
+                        <li><strong>Período:</strong> Enero de 2019 - Diciembre de 2024</li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
